@@ -1,0 +1,20 @@
+{
+  "name": "lost-device-finder-backend",
+  "version": "1.0.0",
+  "description": "Backend configuration for Lost Device Finder",
+  "type": "module",
+  "scripts": {
+    "deploy:rules": "firebase deploy --only firestore:rules",
+    "deploy:indexes": "firebase deploy --only firestore:indexes",
+    "deploy": "firebase deploy --only firestore"
+  },
+  "keywords": [
+    "firebase",
+    "firestore"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-tools": "^13.0.0"
+  }
+}
