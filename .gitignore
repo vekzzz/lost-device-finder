@@ -27,4 +27,8 @@ npm-debug.log*
 .firebase/
 firebase-debug.log
 
+# Documentation (keep only root README.md)
+*.md
+!README.md
+
 NUL
